@@ -2,22 +2,46 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: #FF3366;
+    height: 90vh;
+    background-color: #eb375e;
+    margin: 0;
 }
 
 .header_text {
-    font-family: 'Nunito';
-    font-size: 50px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
     font-weight: bold;
     color: white;
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 0px;
 }
 
 .gif_container {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: white;
+    color: #e93030;
+    padding: 15px 32px;
+    font-size: 16px;
+    margin: 4px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    transition: 0.3s ease;
+}
+
+#noButton {
+    transition: 0.2s;
 }
